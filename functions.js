@@ -58,6 +58,7 @@ function join(sep, array) {
 }
 
 function max(array) {
+  // loop through array, if next item > last max item set local variable, return max
   let currentMax = array[0];
   for (let i = 0; i < array.length; i++) {
     if (array[i] > currentMax) {
